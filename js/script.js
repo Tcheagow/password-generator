@@ -5,6 +5,7 @@ const capturingAndCheckingPassword = {
     checkPasswordlength: () => {
         if(capturingAndCheckingPassword.passLength() == 0) {
             document.getElementById("displaypass").innerHTML = "Por favor, coloque um número maior que zero (0)";
+            document.getElementById("displaytitle").innerHTML = "";
 
             return document.getElementById("displaypass").innerHTML.length;
         }else{ 
