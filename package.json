@@ -1,0 +1,14 @@
+{
+  "name": "password-generator",
+  "version": "1.0.0",
+  "description": "começando com electron",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "tcheagow",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^16.0.5"
+  }
+}
