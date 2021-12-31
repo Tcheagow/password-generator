@@ -8,14 +8,22 @@
     <title>Electron</title>
 </head>
 <body>
-    <h1 class="title">Hello, world</h1>
+    <h1 class="title">Gerador de senhas</h1>
     <main>
-        <div class="main">
-            <p class="text">Defina o tamanho da sua senha</p>
-            <input type="number" name="generatorPass" id="generatorPass" min="0" max="15" placeholder="0">
-            <button class="buttonpass" id="buttonpass">Gerar senha</button>
-            <span class="display" id="displaytitle"></span>
-            <span class="display" id="displaypass"></span>
+        <div class="container">
+            <div class="main">
+                <p class="text">Defina o tamanho da sua senha</p>
+                <input type="number" name="generatorPass" id="generatorPass" min="0" max="15" placeholder="0">
+                <button class="buttonpass" id="buttonpass">Gerar senha</button>
+                <span class="display" id="displaytitle"></span>
+                <span class="display" id="displaypass"></span>
+            </div>
+            <div class="displayPass">
+                <h2 class="titlePass">Senhas criadas:</h2>
+                <div class="passwords">
+                    
+                </div>
+            </div>
         </div>
     </main>
 </body>
