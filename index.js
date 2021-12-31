@@ -1,12 +1,14 @@
 const { app, BrowserWindow } = require('electron');
 
+var win = null;
+
 const createWindow = () => {
-    const win = new BrowserWindow({
+    win = new BrowserWindow({
       width: 800,
       height: 600
     })
   
-    win.loadFile('index.html');
+    win.loadFile('./html/login.html');
 }
 
 app.whenReady().then(() => {
