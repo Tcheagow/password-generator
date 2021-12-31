@@ -9,7 +9,7 @@
   "author": "tcheagow",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^16.0.5"
+    "electron": "^13.2.1"
   },
   "dependencies": {
     "firebase": "^9.6.1"

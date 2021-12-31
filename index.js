@@ -5,7 +5,13 @@ var win = null;
 const createWindow = () => {
     win = new BrowserWindow({
       width: 800,
-      height: 600
+      height: 600,
+      webPreferences:{
+        devTools:true,
+        enableRemoteModule: true,
+        nodeIntegration:true,
+        contextIsolation:false,
+      }
     })
   
     win.loadFile('./html/login.html');
